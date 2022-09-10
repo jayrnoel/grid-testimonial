@@ -35,7 +35,7 @@ body {
 .card {
   margin: 1.2rem auto;
   width: 100%;
-  border-radius: 24px;
+  border-radius: 14px;
   padding: 1.5rem 2rem;
   z-index: -2;
   box-shadow: 0 1px 2px var(--l-gray), 0 6px 12px var(--l-gray-a);
