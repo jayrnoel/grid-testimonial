@@ -5,6 +5,7 @@
 }
 :root {
   --violet: hsl(263, 55%, 52%);
+  --violet-a: hsl(270, 35%, 45%);
   --vd-gray-blue: hsl(217, 19%, 35%);
   --vd-gray-blue-a50: hsla(217, 19%, 35%, 50%);
   --vd-gray-blue-a70: hsla(217, 19%, 35%, 70%);
@@ -60,6 +61,17 @@ body {
 }
 .card__5 {
   background-color: var(--white);
+}
+.card__1 .profile__img,
+.card__4 .profile__img {
+  border: 2px solid var(--violet-a);
+}
+.card__2 .profile__img {
+  border: 2px solid var(--white);
+}
+.card__3 .profile__img,
+.card__5 .profile__img {
+  border: 2px solid var(--l-gray);
 }
 
 /* #### Profile */
